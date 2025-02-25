@@ -1,8 +1,8 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('codes_for', 'root', 'Kashi@12345', {
+const sequelize = new Sequelize('codes_for', 'postgres', 'Kashi12345', {
     host: 'localhost',
-    dialect: 'mysql' 
+    dialect: 'postgres' 
   });
 
   const connetion= async()=>{
