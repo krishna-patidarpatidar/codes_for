@@ -24,7 +24,7 @@ const Service = sequelize.define("Service", {
 
 (async () => {
   try {
-    await sequelize.sync({ force: true }); 
+    await sequelize.sync({ alter: true }); ; 
     console.log("Database & Tables synced successfully!");
   } catch (error) {
     console.log("Error syncing database:", error);
