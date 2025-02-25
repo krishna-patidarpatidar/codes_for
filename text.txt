@@ -1,2 +1,4 @@
 somthing kuch bhi 
 text = "kuch bhi"
+print(text)  # Output: kuch bhi
+add sonthing
